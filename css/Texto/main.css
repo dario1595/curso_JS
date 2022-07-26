@@ -1,0 +1,26 @@
+body
+{
+    background-color: #eee;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;/* Cambiamos la fuente */
+    font-weight: 400 ; /* Ancho del texto del 100 al 900 subiendo de 100 */
+    font-style: italic; /* Indicamos el estilo */
+    font-size: 1.5em; /* Tamaño de letra, se suele utilizar mas em en lugar de px */
+    color: #222fff; /* Color texto */
+    text-align: justify ;/* Sirve para alinear el texto */
+    text-indent: 40px;/* es una identacion o tabulacion que indiquemos */
+    line-height: 1.6;/* Manipula la alutar de las lineas de texto */
+    word-spacing: 3px;/* Agrega un espacio entre cada una de las palabras */
+    text-shadow: 1px 2px 2px rgb(0, 0, 0,0.3);/* Agrega sombra al texto, primer parametro indica el desplazamiendo del texto a la derecha, 2 es que tanto se desplaza hacia abajo, 3 qie tan difuso, 4 el color*/
+}
+
+a 
+{
+    text-decoration: none;/* Permite agregar decoracion al texto , none quita la decoracion, overline coloca la linea arriba,
+                            line-through linea atraves del texto, underline deja la linea abajo*/
+    text-transform: capitalize; /* modifica el texto, uppercase pone el texto en mayuscula, lowercase deja todo en minuscula, capitalize poene la primera en mayuscula */
+    letter-spacing: 3px; /* Genera una separacion entre caracteres */
+    
+}

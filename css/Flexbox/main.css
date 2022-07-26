@@ -1,0 +1,34 @@
+body
+{
+    width: 200px;
+    background-color: #eee;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;/*Cambia la orientacion del contenido*/
+    flex-wrap: wrap;/*Evitar que se salga del contenido de la caja*/
+    /*flex-flow: row wrap; Atajo de las propiedades anteriores*/
+    justify-content: space-between; /*Acomodar el contenido*/
+    align-content: stretch;
+    height: 200px;
+}
+
+.primero
+{
+    order: 0; /*Con esta propiedad manipulo el orden de aparicion de los elementos*/
+    flex-grow: 1;/*Le permite crecer de manera dinamica siempre cuando haya espacio disponible*/
+    flex-basis: 20px;/*Le coloca un tamñao inicial*/
+}
+
+.segundo
+{
+    order: 1;
+    flex-grow: 2;/*Este crece el doble del espacio del primero*/
+}
+
+.tercero
+{
+    order: 2;
+}

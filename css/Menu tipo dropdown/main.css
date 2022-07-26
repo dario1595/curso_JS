@@ -1,0 +1,52 @@
+body
+{
+    background-color: #eee;
+}
+
+.dropdown-btn
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; /*Con la propiedad cursos, y ene este caso pointer al pasar por el link el cursor cambia a una mano*/
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute; /*Es relativa al padre*/
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a /* Solo se ven afectados los links a*/
+{
+    color: black;
+    padding: 12px 16px;/* primer valor padding verticar y el segundo horizonal*/
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-btn
+{
+    background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content /* Cuando me coloque sobre el contenido principal muestre el contenido de los links*/
+{
+    display: block;
+}

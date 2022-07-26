@@ -1,0 +1,11 @@
+body
+{
+    background-color: #eee;
+}
+
+p
+{
+    display:block;
+}
+
+/* Con display none podemos volver los elementos invisibles */

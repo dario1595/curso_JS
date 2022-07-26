@@ -1,0 +1,22 @@
+body 
+{
+    background-color: #eee;
+    
+}
+.caja
+{
+    margin: 8px;/*Le agregamos la propiedad de margen a la clase, es decir que al contenido de la caja se le suma un margen exterior*/
+    padding: 8px;/* Esto le da un marjen interior y se aprecia mejor con fondo de colores*/
+    border-style: groove;/*El borde de la caja se encuentra entre el margin y el padding*/
+    /*Solid le da un color solido, dashed  le coloca una linea punteada, dotted linea con punto mas cortos, double muestra lineas doble, groove,ridge,insert da la impresion del contenido undido, outset da la impresion de relieve, se pueden combinar */
+    border-width: 8px;/*le da un ancho al borden*/
+    border-color: #faa;/*color al borde*/
+    /*si queremos editar un borde en particular elegir el que corresponde por ejemplo left*/
+    border-left: 6px solid #afa;
+    background-color: #aaf;
+    border-radius: 4px;/* Tiene la peculariedad de que nos permite redondear los bordes*/
+    height: 100px;/* Altura de la caja */
+    width: 100px;/* Ancho de la caja */
+    color: #575; /* Color texto */
+
+} 

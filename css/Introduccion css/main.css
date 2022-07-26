@@ -1,0 +1,19 @@
+/*selectores sirven para indicar a que etiqueta quiero aplicar los estilos*/
+body /*Selector para el body*/
+{
+    background-color: #efefef;/*Colocar color de fondo*/
+    /*color: #ff0000; Color del texto*/
+}
+/*Selectores por ID, sirve para entregar un identificador unico a un elemento de html*/
+
+#parrafo/* Para los id se inicia con el # y el nombre del id */
+{
+    color: #ff0000;
+}
+
+/*Selectores por clase, nos sirvi cuando queremos hacer una composicion de estilos sobre un elemento html*/
+
+.etiqueta /* En el caso de la clase se debe colocar el . seguido del nombre de la clase */
+{
+   color: #00aa00; 
+}

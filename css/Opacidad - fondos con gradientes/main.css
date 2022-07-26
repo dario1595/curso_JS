@@ -1,0 +1,17 @@
+body
+{
+    background-color: #eee;
+}
+
+.fondo
+{
+    /*background-color: rgba(0,0,0,1);
+    background-color: hsl(120, 60%, 70%);
+    opacity: 1;*/
+
+    background-image: linear-gradient(to right, red, #ccc);/* Iniciamos con un color y terminamos con otro
+                                         Inicialmente se le indica la direccion, luego el 1 color y seguido el 2 color. Si no se indica la direccion por defecto es de arriba hacia abajo*/
+
+   /*background-image: linear-gradient(-15deg, red, #ccc);*/
+   /*background-image: linear-gradient(-15deg, red, yellow, blue);*/
+}

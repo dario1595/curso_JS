@@ -1,0 +1,21 @@
+body
+{
+    background-color: #eee;
+}
+ 
+.fondo
+{
+    height: 300px; /*Forzamos que el tamaño del div sea igual al de la imagen*/
+    background: green url(http://placekitten.com/200/300) no-repeat left top scroll ;/*Se hace en el orden de abajo todo en una linea*/
+    background-size: cover;
+    
+    /*
+    background-color: green;
+    background-image: url(http://placekitten.com/200/300);/*Para poner de fondo una imagen usamos una url o direccion, la imagen se recorta del tamaño del contenedor
+    background-repeat: no-repeat;Sirve para indicar si queremos que se repita una imagen
+    background-position: left top ;Indicamos desde donde queremos que empieze a renderizar
+    background-attachment: scroll;Hacemos que la imagen baje con nosotros
+    background-size: cover;Cambia el tamaño de la imagen para cubrir el espacio
+    */
+
+}

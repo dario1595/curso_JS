@@ -1,0 +1,46 @@
+body
+{
+    background-color: #eee;
+}
+ 
+ul
+{
+    list-style-type: none; /*Sacamos los puntos*/
+    margin: 0;/*Reiniciamos los margenes*/
+    padding: 0;/*Reiniciamos el padding*/
+    overflow: hidden; /*No permitimos que nuestro contenido se escape del espacio definido*/
+    position: fixed;/* Posicion fija*/
+    top: 0;/*Indicamos que queremos que se quede pegada arriba*/
+    left: 0;
+    width: 100%; /*Usar el ancho del 100*/
+    background-color: #333;
+}
+
+li
+{
+    float: left;/*Hace que tenga los elementos uno al lado del otro, o usar el display inline*/
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;/*Que el texto se encuentre centrado*/
+    padding: 14px;/*Para separar los elementos*/
+    text-decoration: none; /*Le sacamos el subrayado*/
+}
+
+li:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.active
+{
+    background-color: #4CAF50;
+}
+
+.content
+{
+    margin-top: 55px;
+}

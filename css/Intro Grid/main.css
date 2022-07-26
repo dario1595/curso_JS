@@ -1,0 +1,43 @@
+body 
+{
+    background-color: #eee;
+    
+}
+/*Grid o grilla, es un sistema que se implenta en css3 para entregar una distribucion mas homogenea*/
+/*Son sistemas de celdas, similar a una grilla en excel, se puede hacer en columanas y en filas, editando las mismas*/
+ 
+.grid
+{
+    display: grid; /*cambiamos el formato de block a grid*/
+    /*Inline-grid, solo utiliza el espacio definido, es decir el elemento mas ancho de la grilla*/
+    /*grid-template-rows: 50px 100px ;Indicamos la altura de la fila para cada elemento dependiendo de los paramatros pasados, si son 3 y pasamos 2 el 3 elemento queda con una altura default */
+    /*grid-template-rows: minmax(100px,auto); Tamaño minimo y maximo de las filas*/
+    
+    grid-template-rows: repeat(2,50px);/*repeat acepta 2 argumenteos, la 1 es la cantidad de veces que se repite el 2 parametro*/
+
+    grid-template-columns: 90px 50px 120px; /* Dependiendo de la cantidad de valores es la cantidad de columnas que genera, por lo que si ponemos un valor menor al de los elementos una vez llegamos al limite, empieza nuevamente colocandolos abajo */
+    /*Se le puede pasar fracciones (1fr,2fr,3fr (Serian 6 partes)), el cual divide segun las cantidades usadas*/
+
+    grid-row-gap: 20px; /* Agrega espacio entre filas*/
+    grid-column-gap: 10px;/*Agrega espaciado entre columnas*/
+
+    grid-template-rows: [row-1-inicio]50px;/*Para colocarle nombre se usa los parentecis cuadrados donde se pone el nombre y afuera la medida*/
+    grid-template-columns: [col-1-inicio]1fr; /*Para las columnas pasa lo mismo*/
+}
+
+.element
+{
+    background-color: red;
+}
+
+.header
+{
+    grid-column-start: 1; /*Linea donde inicia*/
+    grid-column-end: 4; /*Donde termina*/
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    /*grid-column: 1/6; Version corta*/
+    /*grid-row: 1/3; Version corta*/
+}

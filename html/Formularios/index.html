@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Mi primera pagina
+        </title>
+    </head>
+    <body>
+        <form> <!-- Formulario, es la forma mas basica de pedirle info al usuario -->
+            <fieldset>  <!-- Sirve para agrupar las etiquetas en una caja  -->         
+                <legend> Datos personales </legend> <!-- Se le agrega el texto caracteristo al fielset (Caja contenedora de los imputs)-->
+                <label>Edad</label> <!-- Le entrega una etiqueta a los campos de imput -->
+                <input type = "number" placeholder=" Ingresa edad ... "> <!-- Para pasar propiedades a las etiquetas, usamos el type. Otra propiedas es placeholder, lo que hace es colocar un texto dentro del espacio del imput  -->
+                <br/>
+                <label>Contraseña</label> 
+                <input type = "password"> <!-- Con password cambia el texto por asteriscos asi no se ve lo que colacamos-->
+                <br/>
+                <label>Nombre</label> 
+                <input type="text"/><!-- Text, para colocar texto. -->
+                <br/>
+                <input type="submit" value="Acepta"> <!-- Nos muestra un boton (si le quetemos cambiar el texto usar la propiedad value) para enviar el valor del formulario -->
+                <br/>
+                <textarea > </textarea><!-- Realiza un espacio para que el usuario pueda ingresar mas texto -->
+                <br/>
+                <button>Aceptar</button> <!-- Coloca un boton, por lo general usaremos esta, ya que se le pueden pasar mas elementos html -->
+                <br/>
+                <select ><!-- Nos muestra opciones que vamos a poder seleccionar -->
+                    <option value="goku">Goku</option> <!-- Etiqueta de opcion, se le indica el valor que va a contener si se lo selecciona-->
+                    <option value="vegeta">Vegeta</option>
+                    <option value="gohan">Gohan</option>
+                </select>
+            </fieldset> 
+
+        </form>
+    </body>
+
+</html>

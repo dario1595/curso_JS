@@ -1,0 +1,35 @@
+body
+{
+    background-color: #eee;
+}
+ a
+ {
+     color: hotpink;/* Cambio de color */
+     background-color: #f00;
+     border: solid 1px #d00;/* Darle un borde con un color mas oscuro asi da efecto de relieve */
+     padding: 10px;
+     margin: 15x;
+     border-radius: 4px;
+ }
+ a:link /* Esto se utliza para darle un estilo a un link antes de ser utilizado */
+ {
+    color: pink;
+    text-decoration: none;
+ }
+
+ a:visited /* Esto se usa para editar los links utilizados */
+ {
+     color: white;
+ }
+
+ a:hover /* Es para cuando colocamos el cursor encima, debe ir antes del active */
+ {
+     color: white;
+     background-color: #f55;
+ }
+
+ a:active /* Es para cuando le damos click al link */
+ {
+     color: black;
+ }
+

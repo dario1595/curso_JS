@@ -1,0 +1,18 @@
+body
+{
+    background-color: #eee;
+}
+ 
+img 
+{
+    float:left; /* La imagen debe flotar a la izquierda, colocando el texto en el espacio disponible de la derecha*/
+}
+
+img:hover
+{
+    opacity: 0.9;/* Coloca opacidad, en este caso cuando colcamos el cursor enciema*/
+}
+div p
+{
+    color: #F00;
+}

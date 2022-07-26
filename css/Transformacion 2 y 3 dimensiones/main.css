@@ -1,0 +1,38 @@
+body
+{
+    background-color: #eee;
+}
+
+.box
+{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px rgba(0,0,0,2);
+
+    /*La propiedad transform solo se usa en elementos display block, ya que sino no tiene efecto*/
+    /*transform: rotate(45deg); Sierve para rota, se agrega el numero (grados) seguido deg*/
+    /*transform: translate(50px 10px);   Esta funcion tiene 2 argunementos, priemro cuando se mueve en el eje x y el segundo en el eje y*/
+    /*transform: scale(0.9,0.9);Esta funcion permite cambiar las dimiensiones del elemento*/
+    /*transform: skew(25deg, 10deg);Esta funcion sirver para retorser, resive un angulo*/
+
+    /*Para 3 dimensiones
+    transform: rotateX(60deg);*/
+
+    /*Transiciones*/
+    transition: 0.3s;/*Recibe 2 valores 1 la propiedad 2 el tiempo*/
+    /*Cuando no se le indica un propiedad por defecto toma todas*/
+    transition-delay: 0.3s;/*Indicar la demora de la transicion*/
+    /*Se pueden poner en la misma linea*/
+}
+
+.box:hover
+{
+    /*transform: scale(1.05,1.05);*/
+    /*width: 150px;*/
+    transform: scale(1.05,1.05);
+    background-color: rgba(0,0,0,0.1);
+}

@@ -1,0 +1,25 @@
+body
+{
+    background-color: #eee;
+}
+
+ul{
+    list-style: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+/*
+ul li  Cuando quiero seleccionar un elemento que se encuentra dentro de otro, debe utilizar la etiqueta que esta mas arriba y posterior la etiqueta que necesitamos
+{
+    list-style-type: circle; /* Cambia el marcador del elemento 
+
+}
+*/
+li
+ {
+     border-bottom: solid 1px #ddd;
+     padding: 15px;
+ }

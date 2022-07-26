@@ -1,0 +1,20 @@
+Conceptos: 
+- Cliente: es quien va a consumir nuestra api (celular, PC, etc).
+- Base de datos: vamos a usar mongoDB. La api se conecta a una bd
+- El circuito es: el cliente se conecta a la api rest, esta se dirige a la db, a buscar los clientes
+y despues se realiza los pasos previos volviendo al cliente
+
+Formas de conectarse () Verbos
+-Get/users - /users/:id: Lista un arreglo con los usuarios (si pasamos un id traemos un solo usuario y no es arreglo sino un objeto)
+-Post/users: crea un usuario
+-Put/users/:id: reempla un usuario existente
+-Patch/users/:id: Actualiza parcialmente un usuario
+-Delete/users/:id: Elimina un usuario
+
+-------------------------------------------------------------
+Dentro de la api ejecutamos
+npm init -y (Acepta todas las opciones por defecto) - Crea el archivo de la api
+npm install -S express - para instalar dependencias
+
+-------------------------------------------------------------
+Para instalar la libreria de mongoDB se coloca npm i -S mongoose

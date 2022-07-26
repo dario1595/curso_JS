@@ -1,0 +1,15 @@
+body
+{
+    background-color: #eee;
+}
+
+#over
+{
+    width: 100px;
+    height:100px; 
+    /*Sirve para contener el contenido y que no salga de lo designado*/
+    overflow: auto;/*hidden muestra unicamente lo que entre en el espacio designado
+                    scroll, es similar pero agrega una barrita de scroll para mostrar el resto del texto
+                    auto, coloca las barritas de scroll de ser necesario
+                    overflow-y u overflow -x se fuerza el over en la direccion que necesitemos*/
+}

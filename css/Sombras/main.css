@@ -1,0 +1,17 @@
+body
+{
+    background-color: #eee;
+}
+
+.box
+{
+    box-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);
+    /*si le colocamos inset la sombra es por dentro y es como si estuviera undido*/
+    /*box-shadow: 2px 2px 4px rgb(0, 0, 0,0.3 inset);*/
+}
+
+.text
+{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);
+}

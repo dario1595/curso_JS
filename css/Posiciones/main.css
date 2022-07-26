@@ -1,0 +1,12 @@
+body
+{
+    background-color: #eee;
+}
+ p
+ {
+    max-width: 350px; /* Colocamos ancho maximo del bloque p*/
+    margin: auto; /* Se aplica un margen automatico para que el contenido quede centrad */
+    position: relative ; /* La posicion relativa, indica que el elemento va a tener una nueva posicion depnendiendo de donde se encuentra 
+                            la propiedad fixed deje el contenido fijo sin imporar la posicion*/
+    left: 15px; /* Esta es una propiedad que sirve para mover el bloque*/
+ }
